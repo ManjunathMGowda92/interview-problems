@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Interview Problems Suite">
+	<test name="Interview Problems" parallel="classes" thread-count="4">
+		<classes>
+			<class name="org.manjunath.test.interviewproblems.TestPalindromeOfString"/>
+			<class name="org.manjunath.test.interviewproblems.TestPalindromeOfString2"/>
+			<class name="org.manjunath.test.interviewproblems.TestPerfectNumber"/>
+			<class name="org.manjunath.test.interviewproblems.TestFactorialOfNumber"/>
+		</classes>
+	</test>
+</suite>
