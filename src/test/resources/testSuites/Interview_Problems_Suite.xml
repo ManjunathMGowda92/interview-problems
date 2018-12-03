@@ -8,6 +8,7 @@
 			<class name="org.manjunath.test.interviewproblems.TestPerfectNumber"/>
 			<class name="org.manjunath.test.interviewproblems.TestFactorialOfNumber"/>
 			<class name="org.manjunath.test.interviewproblems.TestArmstrongNumber"/>
+			<class name="org.manjunath.test.interviewproblems.TestGCDOfTwoNumbers"/>
 		</classes>
 	</test>
 </suite>

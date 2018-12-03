@@ -22,11 +22,13 @@ public class TestArmstrongNumber {
 	public void testIs153ArmstrongNumber() {
 		Reporter.log("TestArmstrongNumber: Start of testIs153ArmstrongNumber() method", true);
 		try {
-			Assert.assertEquals(true, armstrongNumber.isArmstrongNumber(153));
+			Assert.assertEquals(armstrongNumber.isArmstrongNumber(153), true);
 		} catch (AssertionError e) {
 			Reporter.log("AssertionError occurred: "+e, true);
+			Assert.assertTrue(false);
 		} catch (Exception e) {
 			Reporter.log("Exception occurred: "+e, true);
+			Assert.assertTrue(false);
 		}
 		Reporter.log("TestArmstrongNumber: End of testIs153ArmstrongNumber() method", true);
 	}
@@ -38,11 +40,13 @@ public class TestArmstrongNumber {
 	public void testIs370ArmstrongNumber() {
 		Reporter.log("TestArmstrongNumber: Start of testIs370ArmstrongNumber() method", true);
 		try {
-			Assert.assertEquals(true, armstrongNumber.isArmstrongNumber(370));
+			Assert.assertEquals(armstrongNumber.isArmstrongNumber(370), true);
 		} catch (AssertionError e) {
 			Reporter.log("AssertionError occurred: "+e, true);
+			Assert.assertTrue(false);
 		} catch (Exception e) {
 			Reporter.log("Exception occurred: "+e, true);
+			Assert.assertTrue(false);
 		}
 		Reporter.log("TestArmstrongNumber: End of testIs370ArmstrongNumber() method", true);
 	}
@@ -54,11 +58,13 @@ public class TestArmstrongNumber {
 	public void testIs371ArmstrongNumber() {
 		Reporter.log("TestArmstrongNumber: Start of testIs371ArmstrongNumber() method", true);
 		try {
-			Assert.assertEquals(true, armstrongNumber.isArmstrongNumber(371));
+			Assert.assertEquals(armstrongNumber.isArmstrongNumber(371), true);
 		} catch (AssertionError e) {
 			Reporter.log("AssertionError occurred: "+e, true);
+			Assert.assertTrue(false);
 		} catch (Exception e) {
 			Reporter.log("Exception occurred: "+e, true);
+			Assert.assertTrue(false);
 		}
 		Reporter.log("TestArmstrongNumber: End of testIs371ArmstrongNumber() method", true);
 	}
@@ -70,11 +76,13 @@ public class TestArmstrongNumber {
 	public void testIs407ArmstrongNumber() {
 		Reporter.log("TestArmstrongNumber: Start of testIs407ArmstrongNumber() method", true);
 		try {
-			Assert.assertEquals(true, armstrongNumber.isArmstrongNumber(407));
+			Assert.assertEquals(armstrongNumber.isArmstrongNumber(407), true);
 		} catch (AssertionError e) {
 			Reporter.log("AssertionError occurred: "+e, true);
+			Assert.assertTrue(false);
 		} catch (Exception e) {
 			Reporter.log("Exception occurred: "+e, true);
+			Assert.assertTrue(false);
 		}
 		Reporter.log("TestArmstrongNumber: End of testIs407ArmstrongNumber() method", true);
 	}
@@ -86,11 +94,13 @@ public class TestArmstrongNumber {
 	public void testIs5ArmstrongNumber() {
 		Reporter.log("TestArmstrongNumber: Start of testIs5ArmstrongNumber() method", true);
 		try {
-			Assert.assertEquals(true, armstrongNumber.isArmstrongNumber(5));
+			Assert.assertEquals(armstrongNumber.isArmstrongNumber(5), true);
 		} catch (AssertionError e) {
 			Reporter.log("AssertionError occurred: "+e, true);
+			Assert.assertTrue(false);
 		} catch (Exception e) {
 			Reporter.log("Exception occurred: "+e, true);
+			Assert.assertTrue(false);
 		}
 		Reporter.log("TestArmstrongNumber: End of testIs5ArmstrongNumber() method", true);
 	}
@@ -102,11 +112,13 @@ public class TestArmstrongNumber {
 	public void testIs25ArmstrongNumber() {
 		Reporter.log("TestArmstrongNumber: Start of testIs25ArmstrongNumber() method", true);
 		try {
-			Assert.assertEquals(false, armstrongNumber.isArmstrongNumber(25));
+			Assert.assertEquals(armstrongNumber.isArmstrongNumber(25), false);
 		} catch (AssertionError e) {
 			Reporter.log("AssertionError occurred: "+e, true);
+			Assert.assertTrue(false);
 		} catch (Exception e) {
 			Reporter.log("Exception occurred: "+e, true);
+			Assert.assertTrue(false);
 		}
 		Reporter.log("TestArmstrongNumber: End of testIs25ArmstrongNumber() method", true);
 	}
@@ -118,11 +130,13 @@ public class TestArmstrongNumber {
 	public void testIs100ArmstrongNumber() {
 		Reporter.log("TestArmstrongNumber: Start of testIs100ArmstrongNumber() method", true);
 		try {
-			Assert.assertEquals(false, armstrongNumber.isArmstrongNumber(100));
+			Assert.assertEquals(armstrongNumber.isArmstrongNumber(100), false);
 		} catch (AssertionError e) {
 			Reporter.log("AssertionError occurred: "+e, true);
+			Assert.assertTrue(false);
 		} catch (Exception e) {
 			Reporter.log("Exception occurred: "+e, true);
+			Assert.assertTrue(false);
 		}
 		Reporter.log("TestArmstrongNumber: End of testIs100ArmstrongNumber() method", true);
 	}
@@ -134,7 +148,7 @@ public class TestArmstrongNumber {
 	public void testIs1abcdArmstrongNumber() {
 		Reporter.log("TestArmstrongNumber: Start of testIs1abcdArmstrongNumber() method", true);
 		
-		Assert.assertEquals(false, armstrongNumber.isArmstrongNumber(Integer.parseInt("1abcd")));
+		Assert.assertEquals(armstrongNumber.isArmstrongNumber(Integer.parseInt("1abcd")), false);
 		
 		Reporter.log("TestArmstrongNumber: End of testIs1abcdArmstrongNumber() method", true);
 	}
