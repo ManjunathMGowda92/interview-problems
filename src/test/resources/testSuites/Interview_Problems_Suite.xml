@@ -7,6 +7,7 @@
 			<class name="org.manjunath.test.interviewproblems.TestPalindromeOfString2"/>
 			<class name="org.manjunath.test.interviewproblems.TestPerfectNumber"/>
 			<class name="org.manjunath.test.interviewproblems.TestFactorialOfNumber"/>
+			<class name="org.manjunath.test.interviewproblems.TestArmstrongNumber"/>
 		</classes>
 	</test>
 </suite>
