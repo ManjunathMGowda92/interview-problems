@@ -9,6 +9,8 @@
 			<class name="org.manjunath.test.interviewproblems.TestFactorialOfNumber"/>
 			<class name="org.manjunath.test.interviewproblems.TestArmstrongNumber"/>
 			<class name="org.manjunath.test.interviewproblems.TestGCDOfTwoNumbers"/>
+			<class name="org.manjunath.test.interviewproblems.TestStringAnagram2"/>
+			<class name="org.manjunath.test.interviewproblems.TestStringAnagram1"/>
 		</classes>
 	</test>
 </suite>
