@@ -19,7 +19,6 @@ public class ExtractLargestNumberFromString {
 		if (str != null) {
 			if (str.matches("(.)*(\\d)(.)*")) {
 				List<Integer> numList = getNumbersList(str);
-				
 				return numList.stream().max(Integer :: compareTo).get();
 			}
 		} else
