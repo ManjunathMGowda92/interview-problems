@@ -12,6 +12,7 @@
 			<class name="org.manjunath.test.interviewproblems.TestStringAnagram2"/>
 			<class name="org.manjunath.test.interviewproblems.TestStringAnagram1"/>
 			<class name="org.manjunath.test.interviewproblems.TestStringAnagram3"/>
+			<class name="org.manjunath.test.interviewproblems.TestExtractLargestNumberFromString"/>
 		</classes>
 	</test>
 </suite>
