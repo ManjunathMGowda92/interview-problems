@@ -14,6 +14,10 @@
 			<class name="org.manjunath.test.interviewproblems.TestStringAnagram3"/>
 			<class name="org.manjunath.test.interviewproblems.TestExtractLargestNumberFromString"/>
 			<class name="org.manjunath.test.interviewproblems.TestOccurenceOfCharsInString"/>
+			
+			<class name="org.manjunath.test.interviewproblems.TestStringRotationOfOther"/>
+			<class name="org.manjunath.test.interviewproblems.TestStringInplaceReverse"/>
+			<class name="org.manjunath.test.interviewproblems.TestMaxTripletSum"/>
 		</classes>
 	</test>
 </suite>
