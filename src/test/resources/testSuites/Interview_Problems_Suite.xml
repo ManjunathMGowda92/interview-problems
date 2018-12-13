@@ -18,6 +18,8 @@
 			<class name="org.manjunath.test.interviewproblems.TestStringRotationOfOther"/>
 			<class name="org.manjunath.test.interviewproblems.TestStringInplaceReverse"/>
 			<class name="org.manjunath.test.interviewproblems.TestMaxTripletSum"/>
+			
+			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber1"/>
 		</classes>
 	</test>
 </suite>
