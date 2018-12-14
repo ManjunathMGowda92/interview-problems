@@ -20,6 +20,10 @@
 			<class name="org.manjunath.test.interviewproblems.TestMaxTripletSum"/>
 			
 			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber1"/>
+			
+			<class name="org.manjunath.test.interviewproblems.TestSortStringsByLength"/>
+			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber2"/>
+			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber3"/>
 		</classes>
 	</test>
 </suite>
