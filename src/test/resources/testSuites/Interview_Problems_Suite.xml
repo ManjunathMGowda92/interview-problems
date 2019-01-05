@@ -24,6 +24,8 @@
 			<class name="org.manjunath.test.interviewproblems.TestSortStringsByLength"/>
 			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber2"/>
 			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber3"/>
+			
+			<class name="org.manjunath.test.interviewproblems.TestReverseOfNumber"/>
 		</classes>
 	</test>
 </suite>
