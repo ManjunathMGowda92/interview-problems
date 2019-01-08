@@ -1,4 +1,4 @@
-package org.manjunath.java.interviewproblems;
+package org.manjunath.java.interviewproblems.strings;
 
 /**
  * StringAnagram1 class is used to check the given strings are anagrams of each
@@ -13,22 +13,23 @@ package org.manjunath.java.interviewproblems;
  * @author Manjunath HM
  *
  */
-public class StringAnagram2 {
-	
+public class StringAnagram3 {
+
 	public boolean isAnagram(String str1, String str2) {
-		
 		if (str1.length() != str2.length())
 			return false;
 		
 		char[] arr = str1.toCharArray();
+		StringBuffer strBuffer = new StringBuffer(str2);
+		
 		for (char c : arr) {
-			int index = str2.indexOf(c);
-			if (index != -1)
-				str2 = str2.substring(0, index) + str2.substring(index+1, str2.length());
-			else
+			int index = strBuffer.indexOf(""+c);
+			if (index != -1) {
+				strBuffer.deleteCharAt(index);
+			} else
 				return false;
 		}
 		
-		return str2.isEmpty();
+		return strBuffer.length() == 0 ? true : false;
 	}
 }

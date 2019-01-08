@@ -1,4 +1,4 @@
-package org.manjunath.java.interviewproblems;
+package org.manjunath.java.interviewproblems.numbers;
 
 /**
  * ReverseOfNumber class is used to reverse the integer.

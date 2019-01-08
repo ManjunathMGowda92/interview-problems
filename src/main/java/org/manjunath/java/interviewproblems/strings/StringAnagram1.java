@@ -1,8 +1,10 @@
-package org.manjunath.java.interviewproblems;
+package org.manjunath.java.interviewproblems.strings;
+
+import java.util.Arrays;
 
 /**
  * StringAnagram1 class is used to check the given strings are anagrams of each
- * other by removing character by character in the string.
+ * other by using Arrays.sort() and Arrays.equals() methods.
  * 
  * An anagram is a word or phrase formed by rearranging the letters of a
  * different word or phrase, typically using all the original letters exactly
@@ -13,23 +15,19 @@ package org.manjunath.java.interviewproblems;
  * @author Manjunath HM
  *
  */
-public class StringAnagram3 {
-
+public class StringAnagram1 {
+	
 	public boolean isAnagram(String str1, String str2) {
 		if (str1.length() != str2.length())
 			return false;
-		
-		char[] arr = str1.toCharArray();
-		StringBuffer strBuffer = new StringBuffer(str2);
-		
-		for (char c : arr) {
-			int index = strBuffer.indexOf(""+c);
-			if (index != -1) {
-				strBuffer.deleteCharAt(index);
-			} else
-				return false;
+		else {
+			char[] arr1 = str1.toCharArray();
+			char[] arr2 = str2.toCharArray();
+			
+			Arrays.sort(arr1);
+			Arrays.sort(arr2);
+			
+			return Arrays.equals(arr1, arr2);
 		}
-		
-		return strBuffer.length() == 0 ? true : false;
 	}
 }

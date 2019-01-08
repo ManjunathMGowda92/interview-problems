@@ -1,7 +1,7 @@
 package org.manjunath.test.interviewproblems;
 
 import org.manjunath.java.documentation.TestCase;
-import org.manjunath.java.interviewproblems.OccurenceOfCharsInString;
+import org.manjunath.java.interviewproblems.strings.OccurenceOfCharsInString;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;

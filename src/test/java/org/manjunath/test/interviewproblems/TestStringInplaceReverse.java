@@ -1,8 +1,8 @@
 package org.manjunath.test.interviewproblems;
 
 import org.manjunath.java.documentation.TestCase;
-import org.manjunath.java.interviewproblems.StringAnagram3;
-import org.manjunath.java.interviewproblems.StringInplaceReverse;
+import org.manjunath.java.interviewproblems.strings.StringAnagram3;
+import org.manjunath.java.interviewproblems.strings.StringInplaceReverse;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;

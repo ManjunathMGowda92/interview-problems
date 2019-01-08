@@ -1,7 +1,7 @@
 package org.manjunath.test.interviewproblems;
 
 import org.manjunath.java.documentation.TestCase;
-import org.manjunath.java.interviewproblems.ArmstrongNumber;
+import org.manjunath.java.interviewproblems.numbers.ArmstrongNumber;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
