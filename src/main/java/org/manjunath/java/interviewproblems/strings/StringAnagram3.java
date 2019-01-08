@@ -1,8 +1,8 @@
 package org.manjunath.java.interviewproblems.strings;
 
 /**
- * StringAnagram1 class is used to check the given strings are anagrams of each
- * other by removing character by character in the string.
+ * StringAnagram3 class is used to check the given strings are anagrams of each
+ * other by deleting the character by character in the StringBuffer.
  * 
  * An anagram is a word or phrase formed by rearranging the letters of a
  * different word or phrase, typically using all the original letters exactly
