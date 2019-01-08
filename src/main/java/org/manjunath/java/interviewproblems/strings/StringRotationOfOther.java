@@ -1,4 +1,4 @@
-package org.manjunath.java.interviewproblems;
+package org.manjunath.java.interviewproblems.strings;
 
 import java.util.ArrayList;
 import java.util.List;

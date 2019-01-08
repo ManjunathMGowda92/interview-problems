@@ -1,4 +1,4 @@
-package org.manjunath.java.interviewproblems;
+package org.manjunath.java.interviewproblems.numbers;
 
 /**
  * An Armstrong number of three digits is an integer such that the sum of the

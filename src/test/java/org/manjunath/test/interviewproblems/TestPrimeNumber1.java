@@ -1,7 +1,7 @@
 package org.manjunath.test.interviewproblems;
 
 import org.manjunath.java.documentation.TestCase;
-import org.manjunath.java.interviewproblems.PrimeNumber1;
+import org.manjunath.java.interviewproblems.numbers.PrimeNumber1;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;

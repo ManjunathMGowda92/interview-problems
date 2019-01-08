@@ -1,7 +1,7 @@
 package org.manjunath.test.interviewproblems;
 
 import org.manjunath.java.documentation.TestCase;
-import org.manjunath.java.interviewproblems.SortStringsByLength;
+import org.manjunath.java.interviewproblems.strings.SortStringsByLength;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;

@@ -1,4 +1,4 @@
-package org.manjunath.java.interviewproblems;
+package org.manjunath.java.interviewproblems.numbers;
 
 public class FactorialOfNumber {
 	
