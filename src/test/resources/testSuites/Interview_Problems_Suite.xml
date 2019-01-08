@@ -35,6 +35,7 @@
 			<class name="org.manjunath.test.interviewproblems.strings.TestStringRotationOfOther"/>
 			<class name="org.manjunath.test.interviewproblems.strings.TestReverseOfSentence"/>
 			<class name="org.manjunath.test.interviewproblems.strings.TestReverseOfSentenceUsingCollections"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestStringAnagramByMergeSort"/>
 		</classes>
 	</test>
 </suite>
