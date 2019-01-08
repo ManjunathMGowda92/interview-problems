@@ -16,6 +16,7 @@
 			<class name="org.manjunath.test.interviewproblems.numbers.TestPrimeNumber2"/>
 			<class name="org.manjunath.test.interviewproblems.numbers.TestPrimeNumber3"/>
 			<class name="org.manjunath.test.interviewproblems.numbers.TestReverseOfNumber"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestPalindromeOfNumber"/>
 		</classes>
 	</test>
 	
