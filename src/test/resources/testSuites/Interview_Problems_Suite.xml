@@ -32,6 +32,7 @@
 			<class name="org.manjunath.test.interviewproblems.strings.TestStringInplaceReverse"/>
 			
 			<class name="org.manjunath.test.interviewproblems.strings.TestStringRotationOfOther"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestReverseOfSentence"/>
 		</classes>
 	</test>
 </suite>
