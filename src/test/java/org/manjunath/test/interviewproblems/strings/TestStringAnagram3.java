@@ -1,18 +1,18 @@
-package org.manjunath.test.interviewproblems;
+package org.manjunath.test.interviewproblems.strings;
 
 import org.manjunath.java.documentation.TestCase;
-import org.manjunath.java.interviewproblems.strings.StringAnagram2;
+import org.manjunath.java.interviewproblems.strings.StringAnagram3;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TestStringAnagram2 {
-	private StringAnagram2 anagram;
+public class TestStringAnagram3 {
+	private StringAnagram3 anagram;
 	
 	@BeforeClass
 	public void doInitialization() {
-		anagram = new StringAnagram2();		
+		anagram = new StringAnagram3();
 	}
 	
 	@Test(testName = "testIsListenAndSilentAnagrams")
@@ -20,7 +20,7 @@ public class TestStringAnagram2 {
 	testCaseDescription = "To chcek listen and silent are Anagrams or not",
 	expectedResult = "isAnagram() method should return true")
 	public void testIsListenAndSilentAnagrams() {
-		Reporter.log("TestStringAnagram2: Start of testIsListenAndSilentAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: Start of testIsListenAndSilentAnagrams() method", true);
 		try {
 			Assert.assertEquals(anagram.isAnagram("listen", "silent"), true);
 		} catch (AssertionError e) {
@@ -30,7 +30,7 @@ public class TestStringAnagram2 {
 			Reporter.log("Exception occurred:"+e, true);
 			Assert.assertTrue(false);
 		}
-		Reporter.log("TestStringAnagram2: End of testIsListenAndSilentAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: End of testIsListenAndSilentAnagrams() method", true);
 	}
 	
 	
@@ -39,7 +39,7 @@ public class TestStringAnagram2 {
 	testCaseDescription = "To chcek restful and fluster are Anagrams or not",
 	expectedResult = "isAnagram() method should return true")
 	public void testIsRestfulAndFlusterAnagrams() {
-		Reporter.log("TestStringAnagram2: Start of testIsRestfulAndFlusterAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: Start of testIsRestfulAndFlusterAnagrams() method", true);
 		try {
 			Assert.assertEquals(anagram.isAnagram("restful", "fluster"), true);
 		} catch (AssertionError e) {
@@ -49,7 +49,7 @@ public class TestStringAnagram2 {
 			Reporter.log("Exception occurred:"+e, true);
 			Assert.assertTrue(false);
 		}
-		Reporter.log("TestStringAnagram2: End of testIsRestfulAndFlusterAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: End of testIsRestfulAndFlusterAnagrams() method", true);
 	}
 	
 	
@@ -58,7 +58,7 @@ public class TestStringAnagram2 {
 	testCaseDescription = "To chcek mary and army are Anagrams or not",
 	expectedResult = "isAnagram() method should return true")
 	public void testIsMaryAndArmyAnagrams() {
-		Reporter.log("TestStringAnagram2: Start of testIsMaryAndArmyAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: Start of testIsMaryAndArmyAnagrams() method", true);
 		try {
 			Assert.assertEquals(anagram.isAnagram("mary", "army"), true);
 		} catch (AssertionError e) {
@@ -68,7 +68,7 @@ public class TestStringAnagram2 {
 			Reporter.log("Exception occurred:"+e, true);
 			Assert.assertTrue(false);
 		}
-		Reporter.log("TestStringAnagram2: End of testIsMaryAndArmyAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: End of testIsMaryAndArmyAnagrams() method", true);
 	}
 	
 	
@@ -77,7 +77,7 @@ public class TestStringAnagram2 {
 	testCaseDescription = "To chcek stop and tops are Anagrams or not",
 	expectedResult = "isAnagram() method should return true")
 	public void testIsStopAndTopsAnagrams() {
-		Reporter.log("TestStringAnagram2: Start of testIsStopAndTopsAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: Start of testIsStopAndTopsAnagrams() method", true);
 		try {
 			Assert.assertEquals(anagram.isAnagram("stop", "tops"), true);
 		} catch (AssertionError e) {
@@ -87,7 +87,7 @@ public class TestStringAnagram2 {
 			Reporter.log("Exception occurred:"+e, true);
 			Assert.assertTrue(false);
 		}
-		Reporter.log("TestStringAnagram2: End of testIsStopAndTopsAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: End of testIsStopAndTopsAnagrams() method", true);
 	}
 	
 	
@@ -96,7 +96,7 @@ public class TestStringAnagram2 {
 	testCaseDescription = "To chcek fill and fil are Anagrams or not",
 	expectedResult = "isAnagram() method should return false")
 	public void testIsFillAndFilAnagrams() {
-		Reporter.log("TestStringAnagram2: Start of testIsFillAndFilAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: Start of testIsFillAndFilAnagrams() method", true);
 		try {
 			Assert.assertEquals(anagram.isAnagram("fill", "fil"), false);
 		} catch (AssertionError e) {
@@ -106,7 +106,7 @@ public class TestStringAnagram2 {
 			Reporter.log("Exception occurred:"+e, true);
 			Assert.assertTrue(false);
 		}
-		Reporter.log("TestStringAnagram2: End of testIsFillAndFilAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: End of testIsFillAndFilAnagrams() method", true);
 	}
 	
 	
@@ -115,7 +115,7 @@ public class TestStringAnagram2 {
 	testCaseDescription = "To chcek Call and lack are Anagrams or not",
 	expectedResult = "isAnagram() method should return false")
 	public void testIsCallAndLackAnagrams() {
-		Reporter.log("TestStringAnagram2: Start of testIsCallAndLackAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: Start of testIsCallAndLackAnagrams() method", true);
 		try {
 			Assert.assertEquals(anagram.isAnagram("Call", "lack"), false);
 		} catch (AssertionError e) {
@@ -125,7 +125,7 @@ public class TestStringAnagram2 {
 			Reporter.log("Exception occurred:"+e, true);
 			Assert.assertTrue(false);
 		}
-		Reporter.log("TestStringAnagram2: End of testIsCallAndLackAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: End of testIsCallAndLackAnagrams() method", true);
 	}
 	
 	
@@ -134,7 +134,7 @@ public class TestStringAnagram2 {
 	testCaseDescription = "To chcek love and evolve are Anagrams or not",
 	expectedResult = "isAnagram() method should return false")
 	public void testIsLoveAndEvolveAnagrams() {
-		Reporter.log("TestStringAnagram2: Start of testIsLoveAndEvolveAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: Start of testIsLoveAndEvolveAnagrams() method", true);
 		try {
 			Assert.assertEquals(anagram.isAnagram("love", "evolve"), false);
 		} catch (AssertionError e) {
@@ -144,6 +144,6 @@ public class TestStringAnagram2 {
 			Reporter.log("Exception occurred:"+e, true);
 			Assert.assertTrue(false);
 		}
-		Reporter.log("TestStringAnagram2: End of testIsLoveAndEvolveAnagrams() method", true);
+		Reporter.log("TestStringAnagram3: End of testIsLoveAndEvolveAnagrams() method", true);
 	}
 }

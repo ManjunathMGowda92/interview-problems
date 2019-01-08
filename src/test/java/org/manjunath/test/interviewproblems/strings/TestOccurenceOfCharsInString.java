@@ -1,4 +1,4 @@
-package org.manjunath.test.interviewproblems;
+package org.manjunath.test.interviewproblems.strings;
 
 import org.manjunath.java.documentation.TestCase;
 import org.manjunath.java.interviewproblems.strings.OccurenceOfCharsInString;
