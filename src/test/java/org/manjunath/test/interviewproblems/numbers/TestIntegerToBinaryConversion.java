@@ -1,4 +1,4 @@
-package org.manjunath.test.interviewproblems;
+package org.manjunath.test.interviewproblems.numbers;
 
 import org.manjunath.java.documentation.TestCase;
 import org.manjunath.java.interviewproblems.numbers.IntegerToBinaryConversion;
