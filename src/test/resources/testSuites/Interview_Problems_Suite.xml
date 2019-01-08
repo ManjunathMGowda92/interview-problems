@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Interview Problems Suite">
-	<test name="Interview Problems" parallel="classes" thread-count="4">
+	<test name="Interview Problems - Numbers" parallel="classes" thread-count="4">
 		<classes>
-			<class name="org.manjunath.test.interviewproblems.TestPalindromeOfString"/>
-			<class name="org.manjunath.test.interviewproblems.TestPalindromeOfString2"/>
-			<class name="org.manjunath.test.interviewproblems.TestPerfectNumber"/>
-			<class name="org.manjunath.test.interviewproblems.TestFactorialOfNumber"/>
-			<class name="org.manjunath.test.interviewproblems.TestArmstrongNumber"/>
-			<class name="org.manjunath.test.interviewproblems.TestGCDOfTwoNumbers"/>
-			<class name="org.manjunath.test.interviewproblems.TestStringAnagram2"/>
-			<class name="org.manjunath.test.interviewproblems.TestStringAnagram1"/>
-			<class name="org.manjunath.test.interviewproblems.TestStringAnagram3"/>
-			<class name="org.manjunath.test.interviewproblems.TestExtractLargestNumberFromString"/>
-			<class name="org.manjunath.test.interviewproblems.TestOccurenceOfCharsInString"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestArmstrongNumber"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestExtractLargestNumberFromString"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestFactorialOfNumber"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestGCDOfTwoNumbers"/>
 			
-			<class name="org.manjunath.test.interviewproblems.TestStringRotationOfOther"/>
-			<class name="org.manjunath.test.interviewproblems.TestStringInplaceReverse"/>
-			<class name="org.manjunath.test.interviewproblems.TestMaxTripletSum"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestIntegerToBinaryConversion"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestMaxTripletSum"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestPerfectNumber"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestPrimeNumber1"/>
 			
-			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber1"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestPrimeNumber2"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestPrimeNumber3"/>
+			<class name="org.manjunath.test.interviewproblems.numbers.TestReverseOfNumber"/>
+		</classes>
+	</test>
+	
+	<test name="Interview Problems - Strings" parallel="classes" thread-count="4">
+		<classes>
+			<class name="org.manjunath.test.interviewproblems.strings.TestOccurenceOfCharsInString"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestPalindromeOfString"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestPalindromeOfString2"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestSortStringsByLength"/>
 			
-			<class name="org.manjunath.test.interviewproblems.TestSortStringsByLength"/>
-			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber2"/>
-			<class name="org.manjunath.test.interviewproblems.TestPrimeNumber3"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestStringAnagram1"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestStringAnagram2"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestStringAnagram3"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestStringInplaceReverse"/>
 			
-			<class name="org.manjunath.test.interviewproblems.TestReverseOfNumber"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestStringRotationOfOther"/>
 		</classes>
 	</test>
 </suite>
