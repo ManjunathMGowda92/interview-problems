@@ -38,6 +38,7 @@
 			<class name="org.manjunath.test.interviewproblems.strings.TestStringAnagramByMergeSort"/>
 			
 			<class name="org.manjunath.test.interviewproblems.strings.TestFirstNonRepeatedCharFromStringUsingLinkedHashSet"/>
+			<class name="org.manjunath.test.interviewproblems.strings.TestStringAnagramUsingQuickSort"/>
 		</classes>
 	</test>
 </suite>
