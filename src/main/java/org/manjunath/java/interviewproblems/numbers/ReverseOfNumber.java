@@ -30,4 +30,35 @@ public class ReverseOfNumber {
 		
 		return reverse;
 	}
+	
+	/**
+	 * Method reverse() is used to generate the reverse of given input number.
+	 * The method also handles the overflow of number
+	 * 
+	 * @param num Integer
+	 * @return reversed Number(if overflow, then returns 0)
+	 */
+	public int reverse(int num) {
+
+		boolean negative = false;
+		if (num < 0) {
+			negative = true;
+			num = -num;
+		}
+
+		int prevNum = 0;
+		int reverse = 0;
+		while (num > 0) {
+			int temp = num % 10;
+			reverse = reverse * 10 + temp;
+
+			if ((reverse - temp) / 10 != prevNum)
+				return 0;
+
+			prevNum = reverse;
+			num = num / 10;
+		}
+
+		return (negative) ? -reverse : reverse;
+	}
 }
